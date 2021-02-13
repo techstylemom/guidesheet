@@ -1,0 +1,36 @@
+Wordpress
+
+Development Tools:
+- Local by Flywheel (Laragon Windows)
+- VS Code
+
+VS Code Extensions:
+- WordPress Snippet by TungVN
+- WordPress Snippets by wpdevtools.io
+- ACF Snippet
+
+Helpful Guides:
+- Template Hierarchy (Map)
+- Template Tags
+- Add Snippet for Media Query (mq - @medi(min-width: 768px))
+- Add http://responsive-nav.com/ (mobile nav)
+- Mq snippet Ex:
+"media query": {
+        "prefix": "mq", 
+        "body": [
+            "@media (min-width: $1) {\n\t$0\n}"
+        ]
+    }
+
+
+Libraries/Stylesheets
+- Normalize.css
+- Google Fonts
+- Box Sizing by Paul Irish (add to style.css)
+- mrwweb / reset-rems (font-size: 62.5% - Good for mobile device)
+
+Helpful Plugins:
+- Regenerate Thumbnails (Resized already uploaded images)
+- Advance Custom Fields (ACF)
+- Leaflet for Map
+- Lightbox for images
